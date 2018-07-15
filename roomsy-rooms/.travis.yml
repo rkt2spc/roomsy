@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- 6
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+  slack: rocketspacer:ReIJg5Tg0Wir1Zmbi8IrVx9H#roomsy-rooms
+services:
+  - mongodb
